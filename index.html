@@ -1,0 +1,770 @@
+<html><head><base href="https://loyal-royal-nepal-pubg-clash.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loyal Royal Presents: Nepal Festive PUBG Clash</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Join the Nepal Festive PUBG Clash, presented by Loyal Royal Esports. Compete in an exciting battle for glory and amazing prizes at Disney Park and Resort Parsa, Chitwan.">
+<meta name="keywords" content="Nepal PUBG, Esports, Tournament, Nepal Festive PUBG Clash, Loyal Royal, Disney Park, Chitwan, Gaming Event, PUBG Mobile">
+<meta name="author" content="Loyal Royal Esports">
+
+<!-- Open Graph Meta Tags (for social media sharing) -->
+<meta property="og:title" content="Loyal Royal Presents: Nepal Festive PUBG Clash">
+<meta property="og:description" content="Compete in the ultimate PUBG Mobile battle at Disney Park and Resort Parsa, Chitwan, and win amazing prizes!">
+<meta property="og:image" content="https://loyal-royal-nepal-pubg-clash.com/images/og-image.jpg">
+<meta property="og:url" content="https://loyal-royal-nepal-pubg-clash.com/">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Loyal Royal Presents: Nepal Festive PUBG Clash">
+<meta name="twitter:description" content="Join the excitement at Nepal Festive PUBG Clash. Compete for glory and prizes at Disney Park and Resort Parsa, Chitwan.">
+<meta name="twitter:image" content="https://loyal-royal-nepal-pubg-clash.com/images/twitter-card.jpg">
+
+<style>
+    :root {
+        --primary-color: #ffffff;
+        --secondary-color: #ff6b35;
+        --accent-color: #f0f0f0;
+        --text-color: #ffffff;
+        --background-color: #000000;
+        --nepal-red: #dc143c;
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rajdhani', sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(10px);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        transition: all 0.3s ease;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 30px;
+    }
+
+    nav ul li a {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    nav ul li a::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -5px;
+        left: 0;
+        background-color: var(--secondary-color);
+        transition: width 0.3s ease;
+    }
+
+    nav ul li a:hover::after {
+        width: 100%;
+    }
+
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('pubg-background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(circle, rgba(255,107,53,0.2) 0%, rgba(0,0,0,0) 70%);
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero h1 {
+        font-size: 4.5rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        animation: fadeInUp 1s ease-out;
+        color: var(--primary-color);
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .hero p {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+        animation: fadeInUp 1s ease-out 0.5s;
+        animation-fill-mode: both;
+        color: var(--primary-color);
+    }
+
+    .event-slogan {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: var(--nepal-red);
+        margin-top: 20px;
+        animation: fadeInUp 1s ease-out 1s;
+        animation-fill-mode: both;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+
+    .btn {
+        display: inline-block;
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        padding: 15px 40px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        animation: fadeInUp 1s ease-out 1.5s;
+        animation-fill-mode: both;
+        border: 2px solid var(--secondary-color);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .btn:hover {
+        background-color: transparent;
+        color: var(--primary-color);
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(255, 107, 53, 0.2);
+    }
+
+    section {
+        padding: 100px 0;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 50px;
+        text-align: center;
+        color: var(--primary-color);
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h2::after {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: var(--secondary-color);
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .event-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+    }
+
+    .info-card {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 40px;
+        border-radius: 15px;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255,255,255,0.1);
+        cursor: pointer;
+    }
+
+    .info-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(255, 107, 53, 0.1);
+    }
+
+    .info-card i {
+        font-size: 3.5rem;
+        color: var(--secondary-color);
+        margin-bottom: 25px;
+    }
+
+    .become-sponsor {
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255,255,255,0.1);
+        transition: all 0.3s ease;
+        text-align: center;
+    }
+
+    .become-sponsor:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(255, 107, 53, 0.1);
+    }
+
+    .become-sponsor h3 {
+        color: var(--secondary-color);
+        margin-bottom: 25px;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .become-sponsor p {
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+    }
+
+    .sponsor-contact {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsor-contact-item {
+        display: flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 15px 25px;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+    }
+
+    .sponsor-contact-item:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .sponsor-contact-item i {
+        font-size: 1.5rem;
+        color: var(--secondary-color);
+        margin-right: 10px;
+    }
+
+    .rulebook {
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255,255,255,0.1);
+        transition: all 0.3s ease;
+    }
+
+    .rulebook:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(255, 107, 53, 0.1);
+    }
+
+    .rulebook h3 {
+        color: var(--secondary-color);
+        margin-bottom: 25px;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .rulebook ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+    .rulebook li {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .rulebook li:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: translateX(5px);
+    }
+
+    .rulebook li strong {
+        display: block;
+        color: var(--secondary-color);
+        margin-bottom: 5px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 15px 30px;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .contact-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(255, 107, 53, 0.1);
+    }
+
+    .contact-item i {
+        font-size: 1.5rem;
+        color: var(--secondary-color);
+        margin-right: 15px;
+    }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: var(--primary-color);
+        text-align: center;
+        padding: 30px 0;
+        border-top: 2px solid var(--secondary-color);
+    }
+
+    .social-icons {
+        margin-top: 25px;
+    }
+
+    .social-icons a {
+        color: var(--primary-color);
+        font-size: 1.8rem;
+        margin: 0 15px;
+        transition: all 0.3s ease;
+    }
+
+    .social-icons a:hover {
+        color: var(--secondary-color);
+        transform: translateY(-3px);
+    }
+
+    /* Modal Styles */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1001;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .modal-content {
+        background-color: var(--background-color);
+        margin: 15% auto;
+        padding: 40px;
+        border: 1px solid var(--secondary-color);
+        width: 80%;
+        max-width: 600px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(255,107,53,0.3);
+        animation: modalFadeIn 0.5s;
+    }
+
+    @keyframes modalFadeIn {
+        from {opacity: 0; transform: translateY(-50px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    .close {
+        color: var(--secondary-color);
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: var(--primary-color);
+        text-decoration: none;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .prize-distribution {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .prize-distribution li {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .prize-distribution li:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: translateX(5px);
+    }
+
+    .prize-distribution li strong {
+        display: block;
+        color: var(--secondary-color);
+        margin-bottom: 5px;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 3.5rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        nav ul {
+            display: none;
+        }
+        .modal-content {
+            width: 90%;
+            margin: 20% auto;
+        }
+    }
+
+    /* New styles for venue link */
+    .venue-link {
+        color: var(--text-color);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .venue-link:hover {
+        color: var(--secondary-color);
+    }
+
+    /* New styles for Event Updates box */
+    #eventUpdates {
+        cursor: pointer;
+    }
+
+    #eventUpdatesModal .modal-content {
+        text-align: left;
+    }
+
+    #eventUpdatesModal h3 {
+        color: var(--secondary-color);
+        margin-bottom: 20px;
+    }
+
+    #eventUpdatesModal p {
+        margin-bottom: 15px;
+    }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <span class="logo-text">NFPC</span>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#event-info">Event Info</a></li>
+                <li><a href="#rulebook">Rulebook</a></li>
+                <li><a href="#become-sponsor">Become a Sponsor</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Nepal Festive PUBG Clash</h1>
+                <p>The Ultimate Gaming Showdown</p>
+                <div class="event-slogan">"Compete. Conquer. Celebrate."</div>
+                <a href="#event-info" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <section id="event-info" class="container">
+            <h2>Event Information</h2>
+            <div class="event-info">
+                <div class="info-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Date</h3>
+                    <p>October 2-5, 2024 (tentatively)</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Venue</h3>
+                    <p><a href="https://www.google.com/maps/place/Disney+Park+Resort/@27.6106002,84.5594795,17z/data=!3m1!4b1!4m6!3m5!1s0x3994e932e65e2369:0xc3e921ad11cf1435!8m2!3d27.6106002!4d84.5620544!16s%2Fg%2F11h24q9yly?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="venue-link">Disney Park and Resort, Parsa, Chitwan</a></p>
+                </div>
+                <div id="prizePoll" class="info-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Prize Pool</h3>
+                    <p>Rs 200,000</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Participants</h3>
+                    <p>100 Teams</p>
+                </div>
+                <div id="eventUpdates" class="info-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Event Updates</h3>
+                    <p>Click for latest updates</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prize Pool Modal -->
+        <div id="prizeModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Prize Distribution Breakdown</h2>
+                <ul class="prize-distribution">
+                    <li><strong>1st Place:</strong> Rs 100,000 (50%)</li>
+                    <li><strong>2nd Place:</strong> Rs 50,000 (25%)</li>
+                    <li><strong>3rd Place:</strong> Rs 30,000 (15%)</li>
+                    <li><strong>4th Place:</strong> Rs 12,000 (6%)</li>
+                    <li><strong>MVP (Most Valuable Player):</strong> Rs 8,000 (4%)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Event Updates Modal -->
+        <div id="eventUpdatesModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Latest Event Updates</h3>
+                <p>Disney Park and Resort Parsa, Chitwan is fixed as the venue for the event.</p>
+            </div>
+        </div>
+
+        <section id="rulebook" class="container">
+            <h2>Tournament Rulebook</h2>
+            <div class="rulebook">
+                <h3>1. Player Requirements</h3>
+                <ul>
+                    <li><strong>1.1. Player Perspective (POV):</strong> Each team must have at least two players providing a Point of View (POV) recording during matches.</li>
+                    <li><strong>1.2. Clan Tag:</strong> All players must display their clan tag at all times during the tournament. Failure to use the clan tag will result in a deduction of 5 points from the team's total score.</li>
+                    <li><strong>1.3. Minimum ID Level:</strong> Players must have a minimum ID level of 40 to participate.</li>
+                    <li><strong>1.4. Unauthorized Programs:</strong> The use of unauthorized programs or hardware devices is strictly forbidden and will lead to immediate disqualification.</li>
+                </ul>
+
+                <h3>2. Match Rules</h3>
+                <ul>
+                    <li><strong>2.1. Usage Restrictions:</strong> The use of flare guns, emergency picks, and all chat is prohibited. Violation will result in an immediate ban from the tournament.</li>
+                    <li><strong>2.2. Waiting Time:</strong> Teams will have a waiting time of 7 to 8 minutes after the ID and password are distributed. Teams with fewer than 3 players will not be allowed to participate in the match.</li>
+                    <li><strong>2.3. Rematches:</strong> No rematch will be held unless there is a spectator glitch or 50% of the lobby is affected by technical issues.</li>
+                    <li><strong>2.4. Slot Management:</strong> Players must occupy their designated slots during the match. Wasting a slot will lead to a ban from the tournament.</li>
+                    <li><strong>2.5. Role Assignment:</strong> Players must confirm their roles promptly to avoid delays.</li>
+                    <li><strong>2.6. Unregistered Players:</strong> If unregistered players are found in a game, 20 points will be deducted from the team's total score.</li>
+                    <li><strong>2.7. Name and Clan Tag Consistency:</strong> Players are not allowed to change their name or clan tag during the tournament.</li>
+                    <li><strong>2.8. Management Decisions:</strong> All decisions made by the tournament management are final and binding. No disputes or quarrels will be entertained.</li>
+                    <li><strong>2.9. Substitutions:</strong> Adding or changing players during a match is not allowed.</li>
+                    <li><strong>2.10. Data Usage:</strong> By participating in the tournament, players agree that their data may be used for marketing purposes.</li>
+                </ul>
+
+                <h3>3. LAN Event Rules</h3>
+                <ul>
+                    <li><strong>3.1. Equipment Management:</strong> Qualified teams must manage their own devices, chargers, pillows, and adaptors. Charging sockets will be provided by the management team.</li>
+                    <li><strong>3.2. Venue Arrival:</strong> All qualified teams must arrive at the LAN venue by 10:00 AM on the event day.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="become-sponsor" class="container">
+            <h2>Become Our Sponsor</h2>
+            <div class="become-sponsor">
+                <h3>Partner with Us</h3>
+                <p>Join us in making the Nepal Festive PUBG Clash a success! Partner with us and showcase your brand to a national audience. Contact us to explore sponsorship opportunities.</p>
+                <div class="sponsor-contact">
+                    <div class="sponsor-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>9843341599, 9802981682</p>
+                    </div>
+                    <div class="sponsor-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>loyalroyalesports@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+977 9802981682</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+977 9843341599</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>loyalroyalesports@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Nepal Festive PUBG Clash. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/nepalfestivepubgclash"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/nepalfestivepubgclash"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/nepalfestivepubgclash"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitch.tv/nepalfestivepubgclash"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Change header background on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.backgroundColor = 'rgba(0, 0, 0, 1)';
+            } else {
+                header.style.backgroundColor = 'rgba(0, 0, 0, 0.95)';
+            }
+        });
+
+        // Add animation to elements when they come into view
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.info-card, .rulebook, .contact-item, .become-sponsor').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', function() {
+            const hero = document.querySelector('.hero');
+            const scrollPosition = window.pageYOffset;
+            hero.style.backgroundPositionY = scrollPosition * 0.7 + 'px';
+        });
+
+        // Prize Pool Modal
+        const prizeModal = document.getElementById("prizeModal");
+        const prizeBtn = document.getElementById("prizePoll");
+        const prizeSpan = prizeModal.getElementsByClassName("close")[0];
+
+        prizeBtn.onclick = function() {
+            prizeModal.style.display = "block";
+        }
+
+        prizeSpan.onclick = function() {
+            prizeModal.style.display = "none";
+        }
+
+        // Event Updates Modal
+        const eventUpdatesModal = document.getElementById("eventUpdatesModal");
+        const eventUpdatesBtn = document.getElementById("eventUpdates");
+        const eventUpdatesSpan = eventUpdatesModal.getElementsByClassName("close")[0];
+
+        eventUpdatesBtn.onclick = function() {
+            eventUpdatesModal.style.display = "block";
+        }
+
+        eventUpdatesSpan.onclick = function() {
+            eventUpdatesModal.style.display = "none";
+        }
+
+        // Close modals when clicking outside
+        window.onclick = function(event) {
+            if (event.target == prizeModal) {
+                prizeModal.style.display = "none";
+            }
+            if (event.target == eventUpdatesModal) {
+                eventUpdatesModal.style.display = "none";
+            }
+        }
+    </script>
+
+</body></html>
